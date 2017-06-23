@@ -1,8 +1,22 @@
 {
   "name": "miks1108/test-module",
-  "version": "1",
-  "dist": {
-    "url": "https://git.gbksoft.net/nedyba-mo/test-module.git",
-    "type": "vcs"
+  "version": "1.0.0",
+  "description": "Image saving extension for yii2",
+  "keywords": ["yii2", "image", "save", "thumbnail"],
+  "type": "yii2-extension",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/miks1108/test-module"
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "miks1108\\testModule\\": ""
+    }
   }
 }
