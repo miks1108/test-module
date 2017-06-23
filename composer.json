@@ -1,24 +1,8 @@
 {
   "name": "miks1108/test-module",
-  "description": "Test Module by miks1108.",
-  "keywords": ["template", "composer", "package"],
-  "license": "MIT",
-  "minimum-stability": "stable",
-  "authors": [
-    {
-      "name": "Miks1108",
-      "email": "test@gmail.com"
-    }
-  ],
-  "type": "package",
-  "require": {
-    "php": ">=5.4"
-  },
-  "require-dev": {
-  },
-  "autoload": {
-    "psr-4": {
-      "Miks1108\\TestModule\\": "src/"
-    }
+  "version": "1",
+  "dist": {
+    "url": "https://git.gbksoft.net/nedyba-mo/test-module.git",
+    "type": "vcs"
   }
 }
