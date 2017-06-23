@@ -3,6 +3,7 @@
   "description": "Test Module by miks1108.",
   "keywords": ["template", "composer", "package"],
   "license": "MIT",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Miks1108",
@@ -10,7 +11,6 @@
     }
   ],
   "type": "package",
-  "minimum-stability":"dev",
   "require": {
     "php": ">=5.4"
   },
